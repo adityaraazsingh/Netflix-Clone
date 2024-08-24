@@ -1,0 +1,227 @@
+*{
+    margin:0px;
+    padding: 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    
+  }
+
+  body{
+
+    background-color: black;
+  }
+
+  .main {
+    background-image: url("Res/netflix_bg.jpg");
+    height: 550px;
+    position: relative;
+    background-position: center center;
+
+    
+  }
+
+  .bg {
+
+    height: 550px;
+    width: 100%;
+    background-color: black;
+    opacity: 0.70;
+    position: absolute;
+    top: 0px;
+   
+  } 
+  nav{
+    position: relative;
+    z-index: 10;
+    max-width: 65vw; 
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+    padding : 10px
+    
+    
+  }
+
+ 
+  
+
+  .text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: aliceblue;
+    position: relative;
+    z-index: 10;
+    padding-top: 0px;
+    padding-bottom: 00px;
+    margin-top: 0px;
+    margin-bottom: 0px;;
+    height: 499px;
+
+  }
+  .text >:nth-child(1){
+    font-size: 48px;
+  }
+  
+  .text> :nth-child(2){
+    font-size: 24px;
+  }
+  
+  .text> :nth-child(3){
+    font-size: 20px;
+  }
+  
+
+  .text_1{
+    padding: 11px; 
+    text-align:center;
+
+  }
+
+  .gray_div{
+   
+    height: 3px;
+    position: relative;
+    background-color: gray;
+    top: 0px;
+    margin-top: 0px;
+  
+  }
+  .text_box{
+    height: 499px;
+  }
+  .btn{
+    padding: 4px 8px;
+   
+    border-radius: 8px;
+    font-weight: 610;
+  }
+ .btn-red{
+  background-color: red;
+  border: 2px solid red;
+  color: white;
+  border: 2px solid rgb(255, 0, 0);
+
+ }
+
+ .btn-lang{
+  padding: 4px 8px;
+  background-color: transparent;
+  color: white;
+  border: 2px solid gray;
+  padding: 6px 18px;
+  border-radius: 8px;
+  font-weight: 610;
+  
+  
+ }
+ #email_input{
+  padding: 4px 8px;
+   
+    border-radius: 2px;
+    font-weight: 610;
+    padding: 7px 100px;
+ }
+ #input_bar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+
+ #signup{
+  background-color: rgb(255, 0, 0);
+  padding: 4px 8px;
+   
+   border-radius: 8px;
+   font-weight: 610;
+   border:2px solid rgb(255, 0, 0);
+  
+  color: white;
+ }
+
+ .main div span input{
+  padding: 7px 100px;
+  background-color: transparent;
+  border: 2px solid gray;
+  
+ }
+ .main div span button{
+  padding: 7px 22px;
+  
+ }
+
+  .second{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  height: 550px;
+  position: relative;
+  
+ }
+
+ .second div{
+  text-align: center;
+  width: 50%;
+ }
+ .image_0{
+  
+  /* width: 50%; */
+  height: 50%;
+ }
+ 
+ .help{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 550px;
+  position: relative;
+  
+
+ }
+
+ .help h1{
+  text-align: center;
+ }
+ .h_div{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(52, 50, 50);
+  height: 40px;
+  width: 627px;
+  margin: auto;
+  
+  margin: 10px;
+
+ }
+ .h_div p{
+  padding: 10px;
+ }
+
+ .aboutus{
+  height: 300px;
+  max-height: 400px;
+  margin: auto;
+  width: 90vh;
+  padding-top:50px ;
+
+  
+ }
+
+ .aboutus ul{
+  
+  display: flex;
+  
+  list-style: none;
+  font-size: 10px;
+  flex-wrap: wrap;
+
+   
+ }
+ .aboutus ul li{
+  padding: 10px;
+ }
